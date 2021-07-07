@@ -1,4 +1,4 @@
-class sum {
+class cal {
     int first, second;
 
     private void get(int first, int second) {
@@ -17,9 +17,9 @@ class sum {
 
 }
 
-class cal {
+class sum {
     public static void main(String[] args) {
-        sum obj = new sum();
+        cal obj = new cal();
         System.out.println(obj.call(5,4));
     }
 }
