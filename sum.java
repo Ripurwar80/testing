@@ -20,6 +20,6 @@ class sum {
 class cal {
     public static void main(String[] args) {
         sum obj = new sum();
-        System.out.println(5,4);
+        System.out.println(call(5,4));
     }
 }
