@@ -20,8 +20,6 @@ class sum {
 class cal {
     public static void main(String[] args) {
         sum obj = new sum();
-        Scanner s = new Scanner(System.in);
-        System.out.println(obj.call(s.nextInt(), s.nextInt()));
-        s.close();
+        System.out.println(5,4);
     }
 }
